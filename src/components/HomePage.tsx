@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion from "./FaqAccordion";
 import TrackedCTALink from "./TrackedCTALink";
+import ClickableCard from "./ClickableCard";
 
 const infoRows = [
   { label: "App Name", value: "IW7 Game APK" },
@@ -228,15 +229,14 @@ export default function HomePage() {
               Take a look inside the IW7 Game app — explore referral rewards, VIP bonuses, game providers, and more.
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
               { src: "/img/1.jpeg", alt: "IW7 Game Refer and Earn - Invite friends and earn ₹100 referral bonus" },
-              { src: "/img/2.jpeg", alt: "IW7 Game Agent Jackpot and Invitation Rewards with leaderboard rankings" },
-              { src: "/img/5.jpeg", alt: "IW7 Game VIP Bonus ₹77,777+ exclusive rewards for VIP members" },
+              { src: "/img/2.png", alt: "IW7 Game Agent Jackpot and Invitation Rewards with leaderboard rankings" },
+              { src: "/img/3.png", alt: "IW7 Game VIP Bonus ₹77,777+ exclusive rewards for VIP members" },
               { src: "/img/4.jpeg", alt: "IW7 Game Free Bonus ₹200 to ₹500 for new players with free spins" },
-              { src: "/img/3.jpeg", alt: "IW7 Game Referral Reward - Invite a friend and get ₹80 bonus" },
             ].map((img, i) => (
-              <div key={i} className="card overflow-hidden">
+              <ClickableCard key={i} href="https://share-rxapq9cajg.iw7.io/web/share/index.html?ic=AD0C06E0&ts=1783232220&m=2&lang=en&id=1">
                 <Image
                   src={img.src}
                   alt={img.alt}
@@ -245,7 +245,7 @@ export default function HomePage() {
                   className="w-full h-auto object-cover rounded-lg"
                   loading="lazy"
                 />
-              </div>
+              </ClickableCard>
             ))}
           </div>
         </div>

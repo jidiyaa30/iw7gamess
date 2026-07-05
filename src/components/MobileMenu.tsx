@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { trackCTAClick, trackNavClick } from "@/lib/gtag";
 
-const CTA_LINK = "https://share.iw7game.com/share/agent/AAWWH944?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+const CTA_LINK = "https://share-rxapq9cajg.iw7.io/web/share/index.html?ic=AD0C06E0&ts=1783239420&m=2&lang=en&id=1";
 
 const navLinks = [
   { name: "Home", href: "/" },

@@ -57,6 +57,7 @@ const moreLinks = [
 const legalLinks = [
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Disclaimer", href: "/disclaimer" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 export default function Footer() {
@@ -68,7 +69,7 @@ export default function Footer() {
           <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">
             Start Your IW7 Gaming Journey Today
           </h3>
-          <p className="text-red-100 mb-6 mx-auto">
+          <p className="text-[#b91c1c] mb-6 mx-auto">
             Download the IW7 Game APK now and unlock 500+ premium games, daily rewards, and exclusive bonuses on your Android device.
           </p>
           <TrackedCTALink
@@ -169,6 +170,8 @@ export default function Footer() {
             <Link href="/privacy-policy" className="text-xs text-gray-500 hover:text-gray-400 transition-colors">Privacy Policy</Link>
             <span className="text-gray-700">|</span>
             <Link href="/disclaimer" className="text-xs text-gray-500 hover:text-gray-400 transition-colors">Disclaimer</Link>
+            <span className="text-gray-700">|</span>
+            <Link href="/contact" className="text-xs text-gray-500 hover:text-gray-400 transition-colors">Contact Us</Link>
           </div>
         </div>
       </div>
