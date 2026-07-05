@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import HomePage from "@/components/HomePage";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "IW7 Game – Download APK, Register, Login & Play 500+ Games on Android 2026",

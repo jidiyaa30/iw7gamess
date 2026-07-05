@@ -1,9 +1,9 @@
-import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Suspense } from "react";
+import ClickableCard from "./ClickableCard";
 import FaqAccordion from "./FaqAccordion";
 import TrackedCTALink from "./TrackedCTALink";
-import ClickableCard from "./ClickableCard";
 
 const infoRows = [
   { label: "App Name", value: "IW7 Game APK" },
