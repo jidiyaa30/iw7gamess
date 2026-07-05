@@ -1,4 +1,4 @@
-export const GA_ID = "G-HGBN7XTS41";
+export const GA_ID = "G-W8KW1K0N2E";
 
 declare global {
   interface Window {
