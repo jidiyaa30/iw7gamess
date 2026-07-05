@@ -231,10 +231,14 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
-              { src: "/img/1.jpeg", alt: "IW7 Game Refer and Earn - Invite friends and earn ₹100 referral bonus" },
-              { src: "/img/2.png", alt: "IW7 Game Agent Jackpot and Invitation Rewards with leaderboard rankings" },
-              { src: "/img/3.png", alt: "IW7 Game VIP Bonus ₹77,777+ exclusive rewards for VIP members" },
-              { src: "/img/4.jpeg", alt: "IW7 Game Free Bonus ₹200 to ₹500 for new players with free spins" },
+              { src: "/img/1.jpeg", alt: "IW7 Game home screen featuring Crash, JILI, Fishing, Evolution, KoolBet, Casino, and Slots games" },
+              { src: "/img/2.png", alt: "IW7 Game deposit bonus promotion with 7% QR and 5% Paytm payment bonus for new players" },
+              { src: "/img/3.png", alt: "IW7 Game Fortune Garuda 500 with 25,000x multiplier, Crash and JILI slots" },
+              { src: "/img/4.jpeg", alt: "IW7 Game jackpot ranking leaderboard with daily, weekly, and monthly rewards" },
+              { src: "/img/5.jpeg", alt: "IW7 Game jackpot winners ranking page displaying top player rewards and rankings" },
+              { src: "/img/6.png", alt: "IW7 Game welcome bonus offer with Paytm QR deposit and gaming rewards" },
+              { src: "/img/7.png", alt: "IW7 Game featured games including Fortune Garuda, Crash, JILI, and Fishing categories" },
+              { src: "/img/8.jpeg", alt: "IW7 Game top players leaderboard with jackpot prize pool and rankings" },
             ].map((img, i) => (
               <ClickableCard key={i} href="https://share-rxapq9cajg.iw7.io/web/share/index.html?ic=AD0C06E0&ts=1783232220&m=2&lang=en&id=1">
                 <Image
